@@ -1,0 +1,6 @@
+node_modules
+uploads
+videos
+thumbnails
+.env
+.DS_Store
