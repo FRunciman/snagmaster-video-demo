@@ -1,6 +1,5 @@
 node_modules
-uploads
-videos
+evidence/
 thumbnails
 .env
 .DS_Store
