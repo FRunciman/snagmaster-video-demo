@@ -1,3 +1,5 @@
+import dotenv from "dotenv";
+dotenv.config();
 import express from "express";
 import multer from "multer";
 import ffmpeg from "fluent-ffmpeg";
@@ -58,6 +60,8 @@ app.post("/upload", upload.single("video"), async (req, res) => {
   }
 });
 
-app.listen(3000, () => {
-  console.log("server running on port 3000");
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+  console.log(`server running on port ${PORT}`);
 });
