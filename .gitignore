@@ -1,5 +1,6 @@
 node_modules
-evidence/
+evidence
 thumbnails
 .env
 .DS_Store
+snagmaster.db
